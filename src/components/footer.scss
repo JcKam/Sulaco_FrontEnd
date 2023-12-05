@@ -1,0 +1,6 @@
+@import "../Design-tokens.scss";
+
+.footer {
+  display: flex;
+  padding: var(--spacings-XS);
+}

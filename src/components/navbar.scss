@@ -1,0 +1,20 @@
+@import "../Design-tokens.scss";
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul {
+    padding: 0;
+  }
+}
+
+.navbar_item {
+  color: #e2a223;
+  padding: var(--spacings-XS) var(--spacings-S);
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+}
